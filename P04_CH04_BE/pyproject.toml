@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ai-pairprogramming-ecommerce-sample-be"
+version = "0.1.0"
+description = ""
+authors = ["cheese"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = "^0.28.0"
+sqlalchemy = "^2.0.28"
+psycopg2-binary = "^2.9.9"
+pytest = "^8.1.1"
+httpx = "^0.27.0"
+openai = "^1.14.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

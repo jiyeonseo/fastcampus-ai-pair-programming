@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 시간과 위치</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="content">
+        <h1>현재 시간</h1>
+        <p id="time">시간 로딩 중...</p>
+        <div class="clock">
+            <div class="hand hour" id="hour"></div>
+            <div class="hand minute" id="minute"></div>
+            <div class="hand second" id="second"></div>
+            <div class="center-point"></div>
+        </div>
+
+
+        <!-- 샌프란시스코 시계 -->
+        <div class="clock" id="sanFranciscoClock">
+            <div class="hand hour" id="sanFranciscoHour"></div>
+            <div class="hand minute" id="sanFranciscoMinute"></div>
+            <div class="hand second" id="sanFranciscoSecond"></div>
+            <div class="center-point"></div>
+        </div>
+
+        <!-- 하노이 시계 -->
+        <div class="clock" id="hanoiClock">
+            <div class="hand hour" id="hanoiHour"></div>
+            <div class="hand minute" id="hanoiMinute"></div>
+            <div class="hand second" id="hanoiSecond"></div>
+            <div class="center-point"></div>
+        </div>
+
+        <!-- 시드니 시계 -->
+        <div class="clock" id="sydneyClock">
+            <div class="hand hour" id="sydneyHour"></div>
+            <div class="hand minute" id="sydneyMinute"></div>
+            <div class="hand second" id="sydneySecond"></div>
+            <div class="center-point"></div>
+        </div>
+
+        <h1>내 위치</h1>
+        <p id="location">위치 로딩 중...</p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+    width: 300px;
+    height: 400px;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 16px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#time {
+    color: #007bff;
+}
+
+#location {
+    color: #28a745;
+}
+
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #333;
+    border-radius: 50%;
+    margin: 20px auto;
+    background: #ffff00; /* 노란색 배경 */
+}
+
+.clock + .clock { /* 시계 사이의 간격 */
+    margin-top: 30px;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 49.75%;
+    transform-origin: 50% 100%;
+    background: #333;
+}
+
+.hour {
+    width: 6px;
+    height: 50px;
+    z-index: 3;
+}
+
+.minute {
+    width: 4px;
+    height: 70px;
+    z-index: 2;
+}
+
+.second {
+    width: 2px;
+    height: 90px;
+    z-index: 1;
+    background: red;
+}
+
+.center-point {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #333;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}

@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "내 시간과 위치",
+    "version": "1.0",
+    "description": "현재 시간과 위치를 표시하는 크롬 익스텐션",
+    "permissions": ["geolocation"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+  
